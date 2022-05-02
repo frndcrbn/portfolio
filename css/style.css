@@ -285,6 +285,10 @@ header{
   font-size: 1rem;
   text-align: center;
 }
+.text{
+  align-items: center;
+  justify-content: center;
+}
 .skills .skill-content{
   display: flex;
   flex-wrap: wrap;
@@ -329,31 +333,35 @@ header{
 }
 .skills .skill-content .right .cpp::before{
   width: 80%;
-  box-shadow: 0 0 5px lightgrey, 0 0 10px lightgrey, 0 0 15px lightgrey;
+  box-shadow: 0 0 5px violet, 0 0 10px violet, 0 0 15px lightgrey;
 }
 .skills .skill-content .right .css::before{
   width: 60%;
-  box-shadow: 0 0 5px lightgrey, 0 0 10px lightgrey, 0 0 15px lightgrey;
+  box-shadow: 0 0 5px violet, 0 0 10px violet, 0 0 15px lightgrey;
 }
 .skills .skill-content .right .java::before{
   width: 90%;
-  box-shadow: 0 0 5px lightgrey, 0 0 10px lightgrey, 0 0 15px lightgrey;
+  box-shadow: 0 0 5px violet, 0 0 10px violet, 0 0 15px lightgrey;
+}
+.skills .skill-content .right .javascript::before{
+  width: 80%;
+  box-shadow: 0 0 5px violet, 0 0 10px violet, 0 0 15px lightgrey;
 }
 .skills .skill-content .right .python::before{
   width: 90%;
-  box-shadow: 0 0 5px lightgrey, 0 0 10px lightgrey, 0 0 15px lightgrey;
+  box-shadow: 0 0 5px violet, 0 0 10px violet, 0 0 15px lightgrey;
 }
 .skills .skill-content .right .php::before{
-  width: 70%;
-  box-shadow: 0 0 5px lightgrey, 0 0 10px lightgrey, 0 0 15px lightgrey;
+  width: 80%;
+  box-shadow: 0 0 5px violet, 0 0 10px violet, 0 0 15px lightgrey;
 }
 .skills .skill-content .right .mysql::before{
   width: 50%;
-  box-shadow: 0 0 5px lightgrey, 0 0 10px lightgrey, 0 0 15px lightgrey;
+  box-shadow: 0 0 5px violet, 0 0 10px violet, 0 0 15px lightgrey;
 }
 .skills .skill-content .right .matlab::before{
   width: 80%;
-  box-shadow: 0 0 5px lightgrey, 0 0 10px lightgrey, 0 0 15px lightgrey;
+  box-shadow: 0 0 5px violet, 0 0 10px violet, 0 0 15px lightgrey;
 }
 /* Contact */
 #contact{
